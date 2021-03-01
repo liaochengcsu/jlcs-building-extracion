@@ -13,7 +13,7 @@ from data import load_batch,prepare_data,load_t
 # from MAPNet.mapnet import mapnet
 # from mapnet import pspnet
 # from buildingext.mapnet_git import mapnet
-from mapnet_high import mapnet
+from model import mapnet
 # from mapnet_git import mapnet
 # from hrnet_lc import hrnetv2
 # from MAPNet.mapnet_ori import mapnet
