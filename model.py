@@ -254,7 +254,7 @@ def mapnet(input, is_training=True):
     edge = conv2d(ed2, 1, 1, padding='valid')
 
     # return final
-    return final, edge,conv_c4
+    return final, edge
 
 #model source
 """
