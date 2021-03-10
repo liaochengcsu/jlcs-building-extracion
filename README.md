@@ -2,3 +2,7 @@
 
 ## Abstract
 #### Most of the existing approaches on the extraction of buildings from high-resolution orthoimages consider the problem as semantic segmentation, which extracts a pixel-wise mask for buildings and trains end-to-end with manually labeled building maps. However, as buildings are highly structured, such strategy suffers severe problems, such as blurred boundaries and adhesive to close objects. To alleviate the above problems, we proposed a new strategy that also considers the contours of the buildings. Both the contours and structures of the buildings are jointly learned in the same network. The contours are learnable, because the boundary of the mask labels of buildings implicitly represents the contours of buildings. We utilized the building contour information embedded in the labels to optimize the representation of building boundaries, then combined the contour information with multi-scale semantic features to enhance the robustness to image spatial resolution. Experimental results show that the proposed method achieved 91.64%, 81.34%, and 74.51% intersection over union (IoU) on WHU, Aerial and Massachusetts datasets, which outperformed the state-of-the-art (SOTA) methods. It significantly improved the accuracy of building boundaries, especially for the edges of adjacent building instances.
+
+# Citation
+
+### Liao, C.; Hu, H.; Li, H.; Ge, X.; Chen, M.; Li, C.; Zhu, Q. Joint Learning of Contour and Structure for Boundary-Preserved Building Extraction. Remote Sens. 2021, 13, 1049. https://doi.org/10.3390/rs13061049
